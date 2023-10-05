@@ -31,7 +31,7 @@ int main() {
         }
     }
 
-    // Calculate the product of elements smaller than 5 in odd columns
+    // product of elements smaller than 5 in odd columns
     int prodOdd = 1;
     for (int j = 1; j < m; j += 2) {
         for (int i = 0; i < n; i++) {
@@ -41,7 +41,6 @@ int main() {
         }
     }
 
-    // Print the results
     printf("Sum of positive elements in even rows: %d\n", sumEven);
     printf("Product of elements smaller than 5 in odd columns: %d\n", prodOdd);
 
