@@ -12,6 +12,7 @@ void bubbleSort(int array[], int nr_elements){
     }
 }
 
+
 int main(){
 
     int n,m;
